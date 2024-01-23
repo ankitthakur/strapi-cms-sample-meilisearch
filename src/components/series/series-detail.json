@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_series_series_details",
+  "info": {
+    "displayName": "series-detail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string"
+    },
+    "episodes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::episode.episode"
+    },
+    "speakers": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_pages",
+  "info": {
+    "singularName": "article-page",
+    "pluralName": "article-pages",
+    "displayName": "ArticlePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "article": {
+      "type": "component",
+      "repeatable": false,
+      "component": "categories.ministries-category"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button"
+    },
+    "blog_2": {
+      "type": "richtext"
+    }
+  }
+}

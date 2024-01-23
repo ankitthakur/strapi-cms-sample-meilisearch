@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_episode_episodes",
+  "info": {
+    "displayName": "episode",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "speaker": {
+      "type": "string"
+    },
+    "eventDate": {
+      "type": "datetime"
+    },
+    "passage": {
+      "type": "string"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos",
+        "audios"
+      ]
+    },
+    "mediaThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "transcript": {
+      "type": "text",
+      "private": true
+    },
+    "service": {
+      "type": "enumeration",
+      "enum": [
+        "AM Service",
+        "PM Service"
+      ]
+    }
+  }
+}

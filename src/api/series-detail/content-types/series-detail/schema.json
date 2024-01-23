@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "series_details",
+  "info": {
+    "singularName": "series-detail",
+    "pluralName": "series-details",
+    "displayName": "Series-Detail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "series": {
+      "type": "component",
+      "repeatable": false,
+      "component": "series.series-detail"
+    }
+  }
+}

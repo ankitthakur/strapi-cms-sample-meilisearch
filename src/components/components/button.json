@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "buttonTitle": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary"
+      ]
+    }
+  }
+}

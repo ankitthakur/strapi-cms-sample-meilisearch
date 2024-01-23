@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_categories_ministries_categories",
+  "info": {
+    "displayName": "ministriesCategory",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "categories.category"
+    },
+    "categoryType": {
+      "type": "enumeration",
+      "enum": [
+        "ministries",
+        "media-main-service",
+        "all-media",
+        "series",
+        "events"
+      ]
+    },
+    "series": {
+      "type": "component",
+      "repeatable": true,
+      "component": "series.series-detail"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.button"
+    },
+    "secondaryLink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.button"
+    },
+    "blog_part_2": {
+      "type": "richtext"
+    },
+    "blog_part_3": {
+      "type": "richtext"
+    },
+    "blog": {
+      "type": "richtext"
+    }
+  }
+}
